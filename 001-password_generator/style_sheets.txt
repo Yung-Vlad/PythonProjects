@@ -1,0 +1,41 @@
+QWidget {
+    font-size: 20px;
+    background-color: rgb(250, 250, 210);
+}
+
+QLabel {
+    margin: 0 auto;
+}
+
+QSlider::groove {
+    background-color: rgb(52, 59, 72);
+    height: 5px;
+    margin: 2px;
+}
+
+QSlider::handle {
+    background-color: rgb(120, 130, 225);
+    border-radius: 50%;
+    margin: -5px 0px;
+    width: 15px;
+}
+
+QPushButton {
+    background-color: rgb(120, 130, 225);
+    color: rgb(65, 255, 195);
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: rgb(155, 180, 255);
+}
+
+QSlider::handle:horizontal:pressed,
+QPushButton:pressed {
+    background-color: rgb(65, 255, 195);
+    color: rgb(120, 130, 225);
+}
+
+QLineEdit {
+    font-size: 16px;
+    text-align: center;
+}
