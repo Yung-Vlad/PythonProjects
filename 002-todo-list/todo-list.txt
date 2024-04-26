@@ -1,0 +1,4 @@
+False,Go shopping,04-26 18:03,
+True,Go to the gym,04-26 18:04,
+False,Watch film,04-26 18:04,
+False,Cook dinner,04-26 18:04,
